@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			.top-box
+			{overflow:hidden;height:200px;background-color:#FFCC99;}
+			.top-left-image
+			{float: left;margin: 10px 10px;}
+			.top-right-image
+			{float: right;margin: 10px 10px;}
+			.top-font
+			{height:100px;margin:50px auto;float: left;font:75px "微软雅黑";text-align: center;}
+			.menu-box
+			{overflow:hidden;border-bottom:2px solid gray;width:980px;height:50px;background-color:#FFCC99;margin:0px auto;box-shadow: 2px 2px 5px gray;}
+			.menu-box ul
+			{list-style: none;text-align: center;margin-left:131px;margin-top: -20px;}
+			.menu-box ul li
+			{float: left;margin-left:2px;line-height: 50px;height: 50px;width:200px;background-color:#FF9966;transition: background-color 1s;}
+			.menu-box ul li a
+			{text-decoration: none;color: black;height: 50px;width:200px;display: block;}
+			.menu-box ul li:hover
+			{background-color:#FFCC99;}
+			.menu-box font
+			{line-height: 50px;float: left;background-color:#FF9966;width:172px;text-align: center;}
+			.center-box
+			{width: 980px;height: 400px;background-color:#6699CC;margin:5px auto;box-shadow: 2px 2px 5px gray;overflow: hidden;}
+			.center-img
+			{margin:15px;float: left;}
+			.center-font
+			{margin:15px;float: right;height: 300px;width:550px;}
+			.center-button
+			{border:2px solid #808080;width:540px;height: 100px;border-radius:20px;background:url(img/IMG_1649.JPG) center center no-repeat;background-size: 100% 350%;background-position-y:-150px ;font:30px "微软雅黑";color:gray;}
+			.show-box
+			{width: 980px;margin: 0 auto;height:600px;border: 3px solid #333333;margin-top:70px;border-radius: 30px;box-shadow: 2px 2px 5px gray;background-color:#FFFFFF ;}
+			.show-box p
+			{font:30px "微软雅黑"}
+			.show-box p font
+			{font:16px "楷体"}
+			.show-img-box
+			{width:930px;height:450px;margin: 0px auto;border-top:3px solid #333333;}
+			.show-img-up
+			{width:930px;height:210px;}
+			.show-img-down
+			{width:930px;height: 210px;margin-top: 30px;}
+			.show-img-in
+			{height: 210px;width: 210px;float: left;margin-left:30px;box-shadow: 2px 2px 5px gray;}
+			.show-img-left
+			{height: 210px;width: 210px;float: left;box-shadow: 2px 2px 5px gray;}
+			.show-img-box img
+			{width: 210px;height: 210px;}
+			.down-box
+			{position:fixed;bottom:20px;right:20px;}
+			.down-box input
+			{width:80px;height:80px;background: url(img/top.png) center center;background-size:80px 80px;border: none;}
+		</style>
+	</head>
+	<body>
+		<!--头部开始-->
+		<div class="top-box">
+			<div class="top-left-image"><img src="img/IMG_1623.JPG" width="180px" height="180px"/></div>
+			<div class="top-font">				
+				<font>&nbsp;光 年 图 像 馆</font>
+				<font size="5">— Beautiful Picture Website</font>
+			</div>
+			<div class="top-right-image"><img src="img/IMG_1624.JPG" width="180px" height="180px"/></div>
+		</div>
+		<!--头部结束-->
+		<hr style="color: black; height: 2px;"/>
+		<!--导航开始-->
+		<div class="menu-box" id="nav">
+			<font size="4">&nbsp;&nbsp;图片分类>></font>
+			<ul>
+				<li><a href="#monv">魔女宅急便</a></li>
+				<li><a href="#yintao">樱桃小丸子</a></li>
+				<li><a href="#labi">蜡笔小新</a></li>
+				<li><a href="#xiamu">夏目友人帐</a></li>
+			</ul>
+		</div>
+		<!--导航结束-->
+		<!--中央区开始-->
+		<div class="center-box">
+			<div class="center-img">
+				<img src="img/IMG_1621.JPG" height="370px" width="370px"/>
+			</div>
+			<div class="center-font">
+				<font style="font:25px '微软雅黑';">
+					关于这个图像馆的介绍请阅读下段文字：
+				</font>
+				<font style="font:16px '楷体';">
+					<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;“最最喜欢你，绿子。” “什么程度？” “像喜欢春天的熊一样。” “春天的熊？”绿子再次扬起脸，“什么春天的熊？” “春天的原野里，你一个人正走着，对面走来一只可爱的小熊，浑身的毛活像天鹅绒，眼睛圆鼓鼓的。它这么对你说到：‘你好，小姐，和我一块打滚玩好么？’接着，你就和小熊抱在一起，顺着长满三叶草的山坡咕噜咕噜滚下去，整整玩了一大天。你说棒不棒？” “太棒了。” “我就这么喜欢你。”
+				</font>
+				<p style="font:25px '微软雅黑';">如果你想了解更多，请点击下方按钮。</p>
+				<input type="button" value="联系馆长" class="center-button" onclick="enter()"/>
+			</div>
+		</div>
+		<!--中央区结束-->
+		<!--展示区1开始-->
+		<div class="show-box" id="monv">
+			<p>&nbsp;&nbsp;&nbsp;魔女宅急便
+				<font>从小生长在一个魔女家庭。根据古老的传统习俗，她要完成魔女的修行。</font>
+			</p>
+			<div class="show-img-box">
+				<div class="show-img-up">
+					<div class="show-img-left"><img src="img/IMG_1568.JPG" /></div>
+					<div class="show-img-in"><img src="img/IMG_1566.JPG"/></div>
+					<div class="show-img-in"><img src="img/IMG_1567.JPG"/></div>
+					<div class="show-img-in"><img src="img/IMG_1569.JPG"/></div>
+				</div>
+				<div class="show-img-down">
+					<div class="show-img-left"><img src="img/IMG_1570.JPG"/></div>
+					<div class="show-img-in"><img src="img/IMG_1571.JPG"/></div>
+					<div class="show-img-in"><img src="img/IMG_1572.JPG"/></div>
+					<div class="show-img-in"><img src="img/IMG_1573.JPG"/></div>
+				</div>
+			</div>
+			
+		</div>
+		<!--展示区1结束-->
+		<!--展示区2开始-->
+		<div class="show-box" id="yintao">
+			<p>&nbsp;&nbsp;&nbsp;樱桃小丸子
+			<font>绰号小丸子 生日：1965年5月8日 户籍：日本静冈县清水市 星座：金牛座 年龄：9岁</font>
+			</p>
+			<div class="show-img-box">
+				<div class="show-img-up">
+					<div class="show-img-left"><img src="img/IMG_1576.JPG" /></div>
+					<div class="show-img-in"><img src="img/IMG_1577.JPG"/></div>
+					<div class="show-img-in"><img src="img/IMG_1578.JPG"/></div>
+					<div class="show-img-in"><img src="img/IMG_1579.JPG"/></div>
+				</div>
+				<div class="show-img-down">
+					<div class="show-img-left"><img src="img/IMG_1580.JPG"/></div>
+					<div class="show-img-in"><img src="img/IMG_1581.JPG"/></div>
+					<div class="show-img-in"><img src="img/IMG_1582.JPG"/></div>
+					<div class="show-img-in"><img src="img/IMG_1583.JPG"/></div>
+				</div>
+			</div>
+		</div>
+		<!--展示区2结束-->
+		<!--展示区3开始-->
+		<div class="show-box" id="labi">
+			<p>&nbsp;&nbsp;&nbsp;蜡笔小新
+			<font>住在春日部郊区某住宅区一栋二层小平房。喜欢漂亮的姐姐和辣妹。擅长的技能是“屁股外星人”。</font>
+			</p>
+			<div class="show-img-box">
+				<div class="show-img-up">
+					<div class="show-img-left"><img src="img/IMG_1585.JPG" /></div>
+					<div class="show-img-in"><img src="img/IMG_1586.JPG"/></div>
+					<div class="show-img-in"><img src="img/IMG_1587.JPG"/></div>
+					<div class="show-img-in"><img src="img/IMG_1588.JPG"/></div>
+				</div>
+				<div class="show-img-down">
+					<div class="show-img-left"><img src="img/IMG_1590.JPG"/></div>
+					<div class="show-img-in"><img src="img/IMG_1591.JPG"/></div>
+					<div class="show-img-in"><img src="img/IMG_1592.JPG"/></div>
+					<div class="show-img-in"><img src="img/IMG_1593.JPG"/></div>
+				</div>
+			</div>
+		</div>
+		<!--展示区3结束-->
+		<!--展示区4开始-->
+		<div class="show-box" id="xiamu">
+			<p>&nbsp;&nbsp;&nbsp;夏目友人帐
+			<font>高中生，7月1日生，15岁，身高167厘米，B型。面容清秀，是个善良温和的少年。</font>
+			</p>
+			<div class="show-img-box">
+				<div class="show-img-up">
+					<div class="show-img-left"><img src="img/IMG_1603.JPG" /></div>
+					<div class="show-img-in"><img src="img/IMG_1604.JPG"/></div>
+					<div class="show-img-in"><img src="img/IMG_1605.JPG"/></div>
+					<div class="show-img-in"><img src="img/IMG_1606.JPG"/></div>
+				</div>
+				<div class="show-img-down">
+					<div class="show-img-left"><img src="img/IMG_1607.JPG"/></div>
+					<div class="show-img-in"><img src="img/IMG_1608.JPG"/></div>
+					<div class="show-img-in"><img src="img/IMG_1609.JPG"/></div>
+					<div class="show-img-in"><img src="img/IMG_1610.JPG"/></div>
+				</div>
+			</div>
+		</div>
+		<!--展示区4结束-->
+		<!--底部开始-->
+		<div class="down-box">
+			<input type="button" onclick="window.location.href='index.html'"/>
+		</div>
+		<!--底部结束-->
+		<script type="text/javascript">
+			function enter(){
+				if(confirm("是否进入跳转页面？")){
+					window.location.href='phone.html'
+				}else{
+					alert("您取消操作");
+				}
+			}
+		</script>
+	</body>
+</html>
